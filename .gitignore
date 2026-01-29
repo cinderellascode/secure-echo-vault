@@ -1,0 +1,53 @@
+# ========================
+# PYTHON & DJANGO (Backend)
+# ========================
+# Virtual Environments
+venv/
+env/
+.env
+
+# Byte-compiled / Optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+db.sqlite3
+*.sqlite3
+
+# Django misc
+local_settings.py
+media/
+
+# ========================
+# REACT JS (Frontend: secure-echo-frontend)
+# ========================
+# Dependencies (Global ignore catches it inside the frontend folder too)
+node_modules/
+/.pnp
+.pnp.js
+
+# Production Build
+secure-echo-frontend/build/
+
+# Testing
+secure-echo-frontend/coverage/
+
+# Misc React Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables (Protect your secrets!)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================
+# SYSTEM / GLOBAL
+# ========================
+.DS_Store
+.vscode/
+.idea/
